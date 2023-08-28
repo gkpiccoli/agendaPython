@@ -12,22 +12,23 @@ Para instalar todas as dependências necessárias, use o comando abaixo:
 pip install IPython
 ```
 
-🌠 Funcionalidades
-📌 Inclusão de Contatos: Adicione seus contatos de forma rápida.
-🔍 Pesquisa de Contatos: Localize um contato usando apenas o nome e obtenha seu número.
-✏️ Atualização de Contatos: Mantenha seus contatos atualizados alterando nome e/ou telefone.
-❌ Exclusão de Contatos: Remova contatos que não são mais necessários.
-📊 Ordenação de Contatos: Visualize contatos em ordem alfabética ou pela data de adição.
-💾 Persistência de Dados: Seus contatos são guardados com segurança, estando disponíveis entre execuções.
-📜 Logs de Atividades: Mantenha-se informado sobre quais alterações foram feitas com um registro detalhado.
-🖥️ Como Usar
+- 🌠 Funcionalidades:
+- 📌 Inclusão de Contatos: Adicione seus contatos de forma rápida.
+- 🔍 Pesquisa de Contatos: Localize um contato usando apenas o nome e obtenha seu número.
+- ✏️ Atualização de Contatos: Mantenha seus contatos atualizados alterando nome e/ou telefone.
+- ❌ Exclusão de Contatos: Remova contatos que não são mais necessários.
+- 📊 Ordenação de Contatos: Visualize contatos em ordem alfabética ou pela data de adição.
+- 💾 Persistência de Dados: Seus contatos são guardados com segurança, estando disponíveis entre execuções.
+- 📜 Logs de Atividades: Mantenha-se informado sobre quais alterações foram feitas com um registro detalhado.
+- 🖥️ Como Usar
 Inicie o programa e siga as instruções claras e diretas na tela do console. A navegação foi feita pensando em facilidade e intuitividade.
 
-🤲 Contribuições
-Contribuições são sempre bem-vindas! Sinta-se livre para:
+- 🤲 Contribuições:
+São sempre bem-vindas! Sinta-se livre para:
 
 Fazer um fork deste repositório.
 Criar uma nova branch para suas modificações.
 Fazer um pull request.
-📃 Licença
+
+- 📃 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
