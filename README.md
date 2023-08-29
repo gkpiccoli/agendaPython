@@ -9,7 +9,7 @@
 Crie um ambiente virtual para executar o seu projeto de forma segura:
 
 ```bash
-python3 -m venv venv
+python -m venv venv
 ```
 
 Para instalar todas as dependências necessárias, use o comando abaixo:
