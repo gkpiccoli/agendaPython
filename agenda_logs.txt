@@ -3,3 +3,5 @@
 2023-08-28 20:44:02 - Contato Vinicius adicionado com sucesso!
 2023-08-28 20:44:16 - Contato Manu adicionado com sucesso!
 2023-08-28 20:45:05 - Contato Lucia adicionado com sucesso!
+2023-08-28 21:32:15 - Contato Gustavo excluído com sucesso!
+2023-08-28 21:32:34 - Contato Gustavo adicionado com sucesso!
