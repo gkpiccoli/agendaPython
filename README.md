@@ -9,7 +9,7 @@
 Para instalar todas as dependências necessárias, use o comando abaixo:
 
 ```bash
-pip install IPython
+pip install requeriments.txt
 ```
 
 - 🌠 Funcionalidades:
