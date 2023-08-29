@@ -2,6 +2,7 @@
 import datetime
 import json
 from IPython.display import clear_output
+#erro de importação, não consegui resolver
 
 
 def limpar_tela():
