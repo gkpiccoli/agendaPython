@@ -1,22 +1,24 @@
-
+import os
 import datetime
 import json
-from IPython.display import clear_output
-
 
 
 def limpar_tela():
-    clear_output(wait=True)
+    sistema = os.name
+    if sistema == "posix":
+        os.system("clear")
+    elif sistema == "nt":
+        os.system("cls")
 
 
 def salvar_agenda(agenda, filename="agenda_data.json"):
-    with open(filename, 'w') as file:
+    with open(filename, "w") as file:
         json.dump(agenda, file)
 
 
 def carregar_agenda(filename="agenda_data.json"):
     try:
-        with open(filename, 'r') as file:
+        with open(filename, "r") as file:
             return json.load(file)
     except FileNotFoundError:
         return {}
@@ -27,7 +29,7 @@ def incluir_contato(agenda, nome, telefone):
         return "Contato já existe na agenda."
     agenda[nome] = {
         "telefone": telefone,
-        "data_inclusao": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        "data_inclusao": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
     salvar_agenda(agenda)
     return f"Contato {nome} adicionado com sucesso!"
@@ -69,7 +71,7 @@ def atualizar_contato(agenda, nome):
             return "Número de telefone inválido. Certifique-se de que ele contém apenas dígitos e tem 10 ou 11 números."
         agenda[novo_nome] = {
             "telefone": novo_telefone,
-            "data_inclusao": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            "data_inclusao": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
         del agenda[nome]
         salvar_agenda(agenda)
@@ -97,7 +99,7 @@ def ordenar_contatos(agenda, por="nome"):
 
 def registrar_log(mensagem):
     with open("agenda_logs.txt", "a") as log_file:
-        timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_file.write(f"{timestamp} - {mensagem}\n")
 
 
@@ -114,9 +116,8 @@ def interface_usuario():
         print("4. Excluir Contato")
         print("5. Mostrar Contatos Ordenados por Nome")
         print("6. Mostrar Contatos Ordenados por Data de Inclusão")
-        print("7. Limpar Tela")
-        print("8. Sair")
-        opcao = input("Escolha uma opção (1-8): ")
+        print("7. Sair")
+        opcao = input("Escolha uma opção (1-7): ")
 
         if opcao == "1":
             nome = input("Nome do Contato: ")
@@ -141,10 +142,11 @@ def interface_usuario():
             criterio = "nome" if opcao == "5" else "data"
             contatos_ordenados = ordenar_contatos(agenda, por=criterio)
             for nome, dados in contatos_ordenados:
-                print(f"{nome}: {dados['telefone']} (Adicionado em: {dados['data_inclusao']})")
+                print(
+                    f"{nome}: {dados['telefone']} (Adicionado em: {dados['data_inclusao']})"
+                )
+
         elif opcao == "7":
-            pass
-        elif opcao == "8":
             print("Obrigado por usar a Agenda de Contatos!")
             break
         else:
