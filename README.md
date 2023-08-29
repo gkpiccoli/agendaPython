@@ -18,7 +18,7 @@ Para instalar todas as dependências necessárias, use o comando abaixo:
 pip install requeriments.txt
 ```
 
-- 🌠 Funcionalidades:
+### 🌠 Funcionalidades:
 - 📌 Inclusão de Contatos: Adicione seus contatos de forma rápida.
 - 🔍 Pesquisa de Contatos: Localize um contato usando apenas o nome e obtenha seu número.
 - ✏️ Atualização de Contatos: Mantenha seus contatos atualizados alterando nome e/ou telefone.
