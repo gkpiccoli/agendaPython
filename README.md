@@ -2,7 +2,7 @@
 
 **Agenda de Contatos** é um aplicativo de console desenvolvido em Python, projetado para ser simples, eficaz e amigável na gestão de contatos.
 
-🚫 **Atenção**: Este programa foi idealizado para ser testado em uma IDE, especialmente no **PyCharm** ou no **VSCode**.
+**Atenção**: Este programa foi idealizado para ser testado em uma IDE, especialmente no **PyCharm** ou no **VSCode**.
 
 ## 📥 Instalação e Configuração
 
@@ -36,5 +36,5 @@ Fazer um fork deste repositório.
 Criar uma nova branch para suas modificações.
 Fazer um pull request.
 
-- 📃 Licença
+- 📃 Licença:
 Este projeto está sob a licença MIT. 
