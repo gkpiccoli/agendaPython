@@ -36,5 +36,4 @@ Fazer um fork deste repositório.
 Criar uma nova branch para suas modificações.
 Fazer um pull request.
 
-- 📃 Licença:
-Este projeto está sob a licença MIT. 
+- 📃 Este projeto está sob a licença MIT. 
