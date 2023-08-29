@@ -29,7 +29,7 @@ pip install requeriments.txt
 - 🖥️ Como Usar
 Inicie o programa e siga as instruções claras e diretas na tela do console. A navegação foi feita pensando em facilidade e intuitividade.
 
-- 🤲 Contribuições:
+### 🤲 Contribuições:
 São sempre bem-vindas! Sinta-se livre para:
 
 Fazer um fork deste repositório.
@@ -37,4 +37,4 @@ Criar uma nova branch para suas modificações.
 Fazer um pull request.
 
 - 📃 Licença
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. 
